@@ -8,6 +8,8 @@ import { FooterComponent } from './partials/footer/footer.component';
 import { SidebarComponent } from './partials/sidebar/sidebar.component';
 import { DefaultComponent } from './layout/default/default.component';
 import { BlankComponent } from './layout/blank/blank.component';
+import { ProductsComponent } from './components/products/products.component';
+import { UsersComponent } from './components/users/users.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { BlankComponent } from './layout/blank/blank.component';
     FooterComponent,
     SidebarComponent,
     DefaultComponent,
-    BlankComponent
+    BlankComponent,
+    ProductsComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
