@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-// bing in layout
+// bring in layout
 import { DefaultComponent } from "./layout/default/default.component";
 import { BlankComponent } from "./layout/blank/blank.component";
 // layout ends here
