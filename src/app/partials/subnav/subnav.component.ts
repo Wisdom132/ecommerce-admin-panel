@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SubnavComponent implements OnInit {
 
+  // tslint:disable-next-line: no-trailing-whitespace
+  
   constructor() { }
 
   ngOnInit() {
+  }
+  toggleSideBar() {
+    const sidebar = document.querySelector('#sidebar');
+    sidebar.classList.toggle('active');
   }
 
 }

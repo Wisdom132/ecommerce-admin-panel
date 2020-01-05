@@ -161,3 +161,21 @@ ul.CTAs a {
     display: none;
   }
 }
+
+/* ---------------------------------------------------
+    FORM BOOTSTRAP OVERIDES
+----------------------------------------------------- */
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #6d7fcc;
+  background-color:#6d7fcc;
+}
+
+.form-control:focus {
+  border-color: #8795d4;
+  box-shadow: 0 0 0 0.2rem #a8b8ff;
+}
+a:hover{
+  text-decoration: none;
+}
