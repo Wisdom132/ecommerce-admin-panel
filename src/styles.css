@@ -59,25 +59,25 @@ a:focus {
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
-  background: #7386D5;
-  color: #fff;
+  min-width: 300px;
+  max-width: 300px;
   transition: all 0.3s;
+  height: 45rem;
 }
 
 #sidebar.active {
   margin-left: -250px;
 }
+.components li > a{
+  font-size: 1rem;
+}
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #6d7fcc;
 }
 
 #sidebar ul.components {
   padding: 20px 0;
-  border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -87,13 +87,14 @@ a:focus {
 
 #sidebar ul li a {
   padding: 10px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   display: block;
+  word-spacing: .5rem;
 }
 
 #sidebar ul li a:hover {
-  color: #7386D5;
-  background: #fff;
+  color: #fff;
+  background: #384450
 }
 
 #sidebar ul li.active>a,
@@ -132,17 +133,6 @@ ul.CTAs a {
   margin-bottom: 5px;
 }
 
-a.download {
-  background: #fff;
-  color: #7386D5;
-}
-
-a.article,
-a.article:hover {
-  background: #6d7fcc !important;
-  color: #fff !important;
-}
-
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -150,7 +140,7 @@ a.article:hover {
 #content {
   width: 100%;
   padding: 20px;
-  min-height: 100vh;
+  min-height: 80vh;
   transition: all 0.3s;
 }
 

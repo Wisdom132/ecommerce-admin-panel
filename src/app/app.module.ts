@@ -12,6 +12,7 @@ import { ProductsComponent } from "./components/products/products.component";
 import { UsersComponent } from "./components/users/users.component";
 import { SubnavComponent } from "./partials/subnav/subnav.component";
 import { LoginComponent } from './components/login/login.component';
+import { AddProductComponent } from './components/add-product/add-product.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginComponent } from './components/login/login.component';
     ProductsComponent,
     UsersComponent,
     SubnavComponent,
-    LoginComponent
+    LoginComponent,
+    AddProductComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
