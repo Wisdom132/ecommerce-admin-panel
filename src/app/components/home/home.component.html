@@ -1,1 +1,32 @@
-<p>home works!</p>
+<div class="row mt-4 shadow-sm">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="chart-wrapper w-75">
+                    <canvas baseChart 
+                    [datasets]="barChartData"
+                    [labels]="barChartLabels"
+                    [options]="barChartOptions"
+                    [plugins]="barChartPlugins"
+                    [legend]="barChartLegend"
+                    [chartType]="barChartType">
+                  </canvas>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 shadow-sm">
+        <div class="card">
+            <div class="card-body">
+                <div class="class-wrapper w-75">
+                    <canvas baseChart 
+                    [data]="doughnutChartData"
+                    [labels]="doughnutChartLabels"
+                    [chartType]="doughnutChartType">
+                  </canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
